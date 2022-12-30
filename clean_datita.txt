@@ -1,0 +1,6 @@
+ Villa Gesell;30-Diciembre-2022;14:00;Algo nublado;15 km;33.2;No se calcula; 31;Oeste  22;1004.2 / 
+ Villa Gesell;30-Diciembre-2022;15:00;Algo nublado;15 km;33.9;No se calcula; 29;Oeste  18;1003.5 / 
+ Villa Gesell;30-Diciembre-2022;16:00;Algo nublado;15 km;34.8;No se calcula; 27;Noroeste  14;1002.2 / 
+ Villa Gesell;30-Diciembre-2022;17:00;Algo nublado;15 km;34.6;No se calcula; 27;Oeste  16;1001.4 / 
+ Villa Gesell;30-Diciembre-2022;18:00;Algo nublado;15 km;33.8;No se calcula; 29;Noroeste  13;1001.4 / 
+ Villa Gesell;30-Diciembre-2022;19:00;Parcialmente nublado;15 km;30.3;No se calcula; 33;Sur  20;1002.2 / 
