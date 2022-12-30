@@ -23,3 +23,82 @@
  Villa Gesell;28-Diciembre-2022;20:00;Algo nublado;12 km;15.6;No se calcula; 67;Sur  13;1013.2 / 
        Villa Gesell;29-Diciembre-2022;16:00;Algo nublado;10 km;24.6;No se calcula; 47;Este  14;1010.2 / 
  Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;17:00;Algo nublado;10 km;24;No se calcula; 53;Este  18;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;18:00;Parcialmente nublado;10 km;24;No se calcula; 55;Noreste  11;1009 / 
+ Villa Gesell;29-Diciembre-2022;18:00;Parcialmente nublado;10 km;24;No se calcula; 55;Noreste  11;1009 / 
+ Villa Gesell;29-Diciembre-2022;18:00;Parcialmente nublado;10 km;24;No se calcula; 55;Noreste  11;1009 / 
+ Villa Gesell;29-Diciembre-2022;18:00;Parcialmente nublado;10 km;24;No se calcula; 55;Noreste  11;1009 / 
+ Villa Gesell;29-Diciembre-2022;18:00;Parcialmente nublado;10 km;24;No se calcula; 55;Noreste  11;1009 / 
+ Villa Gesell;29-Diciembre-2022;19:00;Algo nublado con humo;9 km;22.4;No se calcula; 58;Norte  7;1008.8 / 
+ Villa Gesell;29-Diciembre-2022;19:00;Algo nublado con humo;9 km;22.4;No se calcula; 58;Norte  7;1008.8 / 
+ Villa Gesell;29-Diciembre-2022;19:00;Algo nublado con humo;9 km;22.4;No se calcula; 58;Norte  7;1008.8 / 
+ Villa Gesell;29-Diciembre-2022;19:00;Algo nublado con humo;9 km;22.4;No se calcula; 58;Norte  7;1008.8 / 
+ Villa Gesell;29-Diciembre-2022;19:00;Algo nublado con humo;9 km;22.4;No se calcula; 58;Norte  7;1008.8 / 
+ Villa Gesell;29-Diciembre-2022;20:00;Algo nublado;10 km;20.7;No se calcula; 63;Noreste  7;1009 / 
+ Villa Gesell;29-Diciembre-2022;20:00;Algo nublado;10 km;20.7;No se calcula; 63;Noreste  7;1009 / 
+ Villa Gesell;29-Diciembre-2022;20:00;Algo nublado;10 km;20.7;No se calcula; 63;Noreste  7;1009 / 
+ Villa Gesell;29-Diciembre-2022;20:00;Algo nublado;10 km;20.7;No se calcula; 63;Noreste  7;1009 / 
+ Villa Gesell;29-Diciembre-2022;20:00;Algo nublado;10 km;20.7;No se calcula; 63;Noreste  7;1009 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;29-Diciembre-2022;21:00;Algo nublado;10 km;18.8;No se calcula; 68;Norte  7;1009.3 / 
+ Villa Gesell;30-Diciembre-2022;10:00;Algo nublado;15 km;26.4;25.7; 46;Oeste  14;1007.6 / 
+ Villa Gesell;30-Diciembre-2022;10:00;Algo nublado;15 km;26.4;25.7; 46;Oeste  14;1007.6 / 
+ Villa Gesell;30-Diciembre-2022;10:00;Algo nublado;15 km;26.4;25.7; 46;Oeste  14;1007.6 / 
+ Villa Gesell;30-Diciembre-2022;10:00;Algo nublado;15 km;26.4;25.7; 46;Oeste  14;1007.6 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
+ Villa Gesell;30-Diciembre-2022;11:00;Algo nublado;15 km;28.5;28.2; 45;Noroeste  14;1007 / 
