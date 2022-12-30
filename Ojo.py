@@ -27,11 +27,13 @@ def func():
     #Descomprime el .zip para conseguir el .txt
     with zipfile.ZipFile(latest_zip, 'r') as zip_ref:
         zip_ref.extractall(patcito)
+    
     time.sleep(5)
 
     #Consigue el path del archivo recien descomprimido
     list_of_txt = glob.glob(patcito+"\*.txt")
     latest_txt = max(list_of_txt, key=os.path.getctime)
+
     time.sleep(5)
 
     #Abre el archivo .txt y consigue la linea Villa Gessell
@@ -45,6 +47,7 @@ def func():
                 nueva_linea = line
         except:
             nueva_linea = "Sin Dato"
+    
     time.sleep(5)
 
     #Escribe en un nuevo archivo la linea Villa Gesell
@@ -58,10 +61,8 @@ def func():
     os.remove(latest_txt)
     os.remove(latest_zip)
 
-
-
 #Corre cada 60min
-schedule.every(10).minutes.do(func)
+schedule.every(60).minutes.do(func)
 while True:
     schedule.run_pending()
     time.sleep(1)
