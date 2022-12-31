@@ -24,6 +24,7 @@ def func():
     options = webdriver.ChromeOptions()
     prefs = {"download.default_directory" : patcito}
     options.add_experimental_option("prefs",prefs)
+    options.headless = True
     driver = webdriver.Chrome(options=options)
     #Webdriver va al link de descarga
     driver.get('https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre')
