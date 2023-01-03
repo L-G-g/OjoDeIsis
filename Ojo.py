@@ -6,6 +6,10 @@ import glob
 import schedule
 import csv
 import openpyxl
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+import wget
+
 
 patcito = os.path.realpath(os.path.dirname(__file__))
 input_file = glob.glob(patcito+"\clean_datita.txt")
@@ -20,6 +24,8 @@ def func():
     pero esta asi para bugfix y salvaguardar un dato por hora*
     """
 
+
+    """
     #Configuracion del WebDriver
     options = webdriver.ChromeOptions()
     prefs = {"download.default_directory" : patcito}
@@ -30,6 +36,10 @@ def func():
     driver.get('https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre')
 
     time.sleep(5)
+    """
+
+    wget.download('https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre')
+
 
     #Consigue el path del archivo recien descargado
     list_of_zip = glob.glob(patcito+"\*.zip")
@@ -51,14 +61,12 @@ def func():
     with open(latest_txt) as f:
         lines = f.readlines()
     f.close()
-
+    nueva_linea = "Sin dato"
     for line in lines:
-        try:
-            if line.startswith(" Villa Gesell"):
-                nueva_linea = line
-        except:
-            nueva_linea = "Sin Dato"
-    
+        if line.startswith(" Villa Gesell"):
+            nueva_linea = line
+        
+
     time.sleep(5)
 
     #Consigue la ultima linea del archivo datita.txt
@@ -102,6 +110,51 @@ def upload():
             ws.append(row)
 
     wb.save(output_file[0])
+    
+
+    gauth = GoogleAuth()
+    # Try to load saved client credentials
+    gauth.LoadCredentialsFile("mycreds.txt")
+    if gauth.credentials is None:
+        # Authenticate if they're not there
+        gauth.LocalWebserverAuth()
+    elif gauth.access_token_expired:
+        # Refresh them if expired
+        gauth.Refresh()
+    else:
+        # Initialize the saved creds
+        gauth.Authorize()
+
+    # Save the current credentials to a file
+    gauth.SaveCredentialsFile("mycreds.txt")           
+    drive = GoogleDrive(gauth)  
+    
+    folder_title = "Test_Isis"
+    folder_id = '1iussAmgNbUWp5FgXpAg2580NBwqlmd-K'
+
+    # 2) Retrieve the folder id - start searching from root
+    file_list = drive.ListFile({'q': "'1iussAmgNbUWp5FgXpAg2580NBwqlmd-K' in parents and trashed=false"}).GetList()
+    for file in file_list:
+        if(file['title'] == folder_title):
+            folder_id = file['id']
+            break
+
+    # 3) Build string dynamically (need to use escape characters to support single quote syntax)
+    str = "\'" + folder_id + "\'" + " in parents and trashed=false"    
+
+    # 4) Starting iterating over files
+    file_list = drive.ListFile({'q': str}).GetList()
+    for file in file_list:
+        file1 = drive.CreateFile({'id': file["id"]})
+        file1.Trash()  # Move file to trash.
+        file1.UnTrash()  # Move file out of trash.
+        file1.Delete()
+
+    gfile = drive.CreateFile({'parents': [{'id': '1iussAmgNbUWp5FgXpAg2580NBwqlmd-K'}]})
+    # Read file and set it as the content of this instance.
+    gfile.SetContentFile("clean_datita.xlsx")
+    gfile.Upload() # Upload the file.
+
     print("upload completado", time.ctime())
 
 def loop_boy():
@@ -111,11 +164,12 @@ def loop_boy():
     """
 
     schedule.every(60).minutes.do(func)
-    schedule.every(1440).minutes.do(upload)
+    schedule.every(60).minutes.do(upload)
     while True:
         schedule.run_pending()
         time.sleep(1)
-
+func()
+upload()
 loop_boy()
 
 

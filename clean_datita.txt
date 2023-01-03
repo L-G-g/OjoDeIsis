@@ -6,3 +6,31 @@
  Villa Gesell;30-Diciembre-2022;19:00;Parcialmente nublado;15 km;30.3;No se calcula; 33;Sur  20;1002.2 / 
  Villa Gesell;30-Diciembre-2022;20:00;Parcialmente nublado;10 km;24.9;No se calcula; 42;Sur  22;1004 / 
  Villa Gesell;30-Diciembre-2022;21:00;Algo nublado;10 km;22.3;No se calcula; 53;Sur  18;1005.2 / 
+ Villa Gesell;31-Diciembre-2022;09:00;Algo nublado;10 km;20;No se calcula; 66;Sur  22;1014.2 / 
+ Villa Gesell;31-Diciembre-2022;10:00;Algo nublado;10 km;20.8;No se calcula; 66;Sur  22;1014.2 / 
+ Villa Gesell;31-Diciembre-2022;13:00;Despejado;10 km;21.2;No se calcula; 60;Sudeste  25;1015.2 / 
+ Villa Gesell;31-Diciembre-2022;14:00;Despejado;10 km;21;No se calcula; 61;Sudeste  22;1015.6 / 
+ Villa Gesell;31-Diciembre-2022;15:00;Despejado;10 km;20.8;No se calcula; 61;Sur  22;1015.6 / 
+ Villa Gesell;31-Diciembre-2022;16:00;Despejado;10 km;20.2;No se calcula; 63;Este  22;1015.2 / 
+ Villa Gesell;31-Diciembre-2022;17:00;Despejado;10 km;19.5;No se calcula; 68;Este  22;1014 / 
+ Villa Gesell;31-Diciembre-2022;18:00;Despejado;10 km;19.2;No se calcula; 70;Este  22;1014 / 
+ Villa Gesell;31-Diciembre-2022;20:00;Algo nublado;10 km;17.9;No se calcula; 75;Este  18;1014.8 / 
+ Villa Gesell;31-Diciembre-2022;21:00;Algo nublado;10 km;17.1;No se calcula; 82;Este  18;1014.8 / 
+ Villa Gesell;01-Enero-2023;12:00;Nublado;10 km;23.3;No se calcula; 72;Este  11;1011.4 / 
+ Villa Gesell;01-enero-2023;13:00;Nublado;10 km;23;No se calcula; 73;Este  14;1011.2 / 
+ Villa Gesell;01-Enero-2023;14:00;Nublado con lluvia;8 km;21.4;No se calcula; 81;Este  14;1010.6 / 
+ Villa Gesell;01-Enero-2023;15:00;Nublado con lluvia;8 km;20.9;No se calcula; 86;Este  14;1009.6 / 
+ Villa Gesell;01-Enero-2023;16:00;Nublado con lluvia;10 km;20.4;No se calcula; 90;Este  11;1009 / 
+ Villa Gesell;01-Enero-2023;17:00;Nublado con lluvia;6 km;20.2;No se calcula; 94;Este  11;1009.2 / 
+ Villa Gesell;01-Enero-2023;18:00;Nublado con lluvia;6 km;19.4;No se calcula; 82;Este  9;1007.8 / 
+ Villa Gesell;01-Enero-2023;19:00;Nublado con lluvia;6 km;19.6;No se calcula; 88;Este  13;1007.6 / 
+ Villa Gesell;01-Enero-2023;21:00;Nublado con lluvia en la hora anterior;10 km;19.2;No se calcula; 81;Este  9;1006.2 /  
+ Villa Gesell;02-Enero-2023;11:00;Cubierto;10 km;19;No se calcula; 80;Sur  33;1004.4 / 
+ Villa Gesell;02-Enero-2023;12:00;Nublado;10 km;19.5;No se calcula; 74;Sur  38;1004.9 / 
+ Villa Gesell;02-enero-2023;13:00;Algo nublado;10 km;21.3;No se calcula; 57;Sur  37;1005.3 / 
+ Villa Gesell;02-enero-2023;14:00;Algo nublado;15 km;23.1;No se calcula; 44;Sur  37;1005.4 / 
+ Villa Gesell;02-enero-2023;15:00;Despejado;15 km;23.3;No se calcula; 37;Sur  24;1005.2 / 
+ Villa Gesell;02-Enero-2023;17:00;Despejado;15 km;21.9;No se calcula; 50;Sur  16;1005.6 / 
+ Villa Gesell;02-Enero-2023;18:00;Despejado;10 km;21.3;No se calcula; 54;Sur  18;1005.6 / 
+ Villa Gesell;02-Enero-2023;19:00;Despejado;10 km;19.7;No se calcula; 70;Este  13;1005.8 / 
+Sin datoSin dato
