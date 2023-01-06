@@ -2125,3 +2125,12 @@ Sin dato Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se 
  Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
  Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
  Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
+ Villa Gesell;05-Enero-2023;21:00;Parcialmente nublado;12 km;22.6;No se calcula; 62;Calma;1013 / 
