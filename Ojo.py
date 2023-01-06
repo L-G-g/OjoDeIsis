@@ -9,11 +9,19 @@ import openpyxl
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import wget
+import logging
+print("Es el logging")
 
 
+print("entro")
 patcito = os.path.realpath(os.path.dirname(__file__))
-input_file = glob.glob(patcito+"\clean_datita.txt")
-output_file = glob.glob(patcito+"\clean_datita.xlsx")
+input_file = glob.glob(patcito+"/clean_datita.txt")
+output_file = glob.glob(patcito+"/clean_datita.xlsx")
+
+print(patcito)
+print(input_file)
+print(output_file)
+
 
 def func():
     """
@@ -37,62 +45,62 @@ def func():
 
     time.sleep(5)
     """
-
-    wget.download('https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre')
-
+    print("Consiguiendo .zip")
+    wget.download('https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre', out = "/home/OjoDeIsis")
+    print(".zip conseguido")
 
     #Consigue el path del archivo recien descargado
-    list_of_zip = glob.glob(patcito+"\*.zip")
+    list_of_zip = glob.glob(patcito+"/*.zip")
     latest_zip = max(list_of_zip, key=os.path.getctime)
-
+    print("path del  lastest_zip", latest_zip)
     #Descomprime el .zip para conseguir el .txt
     with zipfile.ZipFile(latest_zip, 'r') as zip_ref:
         zip_ref.extractall(patcito)
-    
-    time.sleep(5)
+    print(".zip Extraido")
 
     #Consigue el path del archivo recien descomprimido
-    list_of_txt = glob.glob(patcito+"\*.txt")
+    list_of_txt = glob.glob(patcito+"/*.txt")
     latest_txt = max(list_of_txt, key=os.path.getctime)
 
-    time.sleep(5)
+    print("Path del .txt conseguido")
 
     #Abre el archivo .txt y consigue la linea Villa Gessell
-    with open(latest_txt) as f:
+    with open(latest_txt, errors = "replace") as f:
         lines = f.readlines()
-    f.close()
+    
     nueva_linea = "Sin dato"
     for line in lines:
         if line.startswith(" Villa Gesell"):
             nueva_linea = line
-        
-
-    time.sleep(5)
+    print("Nueva Linea conseguida")
+    print("la nueva linea es", nueva_linea)
 
     #Consigue la ultima linea del archivo datita.txt
-    with open('datita.txt') as f:
-        for line in f:
+    with open('/home/OjoDeIsis/datita.txt', errors = "replace") as f:
+        for linea in f:
             pass
-        ultima_linea = line
-    
+        ultima_linea = linea
+    print("Ultima Linea conseguida", ultima_linea)
+
     #Escribe en un nuevo archivo la linea Villa Gesell
-    with open('datita.txt', 'a') as the_file:
+    with open('/home/OjoDeIsis/datita.txt', 'a', errors = "replace") as the_file:
         the_file.write(nueva_linea)
     the_file.close()
 
-    time.sleep(5)
+    print("datita.txt modificada")
 
     #Escribe una nueva linea en clean_datita.txt si la nueva linea es distinta a la anterior
-    with open('clean_datita.txt', 'a') as the_file:
+    with open('/home/OjoDeIsis/clean_datita.txt', 'a', errors = "replace") as the_file:
         if nueva_linea != ultima_linea:
             the_file.write(nueva_linea)
     the_file.close()
-    
+    print("clean_datita.txt modificada")
+
     #Borra los archivos descargados
     os.remove(latest_txt)
     os.remove(latest_zip)
-
-    print("func completado", time.ctime())
+    print("Archivos removidos")
+    print("func() completado")
 
 def upload():
     """
@@ -103,18 +111,18 @@ def upload():
     ws = wb.worksheets[0]
     headers = ["Nombre de la Estacion", "Fecha (dd-Mes-aaa)", "Horario de informe (hh:mm)", "Nubosidacion", "Visibilidad", "Temperatura", "Sensacion Termica", "Humedad", "Viento", "Presion"]
 
-    with open(input_file[0], 'r') as data:
+    with open(input_file[0], 'r', errors = "replace") as data:
         reader = csv.reader(data, delimiter=';')
         ws.append(headers)
         for row in reader:
             ws.append(row)
 
     wb.save(output_file[0])
-    
+    print("clean_datita.xlsx generado")
 
     gauth = GoogleAuth()
     # Try to load saved client credentials
-    gauth.LoadCredentialsFile("mycreds.txt")
+    gauth.LoadCredentialsFile("/home/OjoDeIsis/mycreds.txt")
     if gauth.credentials is None:
         # Authenticate if they're not there
         gauth.LocalWebserverAuth()
@@ -126,9 +134,11 @@ def upload():
         gauth.Authorize()
 
     # Save the current credentials to a file
-    gauth.SaveCredentialsFile("mycreds.txt")           
-    drive = GoogleDrive(gauth)  
-    
+    gauth.SaveCredentialsFile("mycreds.txt")
+    drive = GoogleDrive(gauth)
+
+    print("GoogleDrive funcionando")
+
     folder_title = "Test_Isis"
     folder_id = '1iussAmgNbUWp5FgXpAg2580NBwqlmd-K'
 
@@ -150,12 +160,16 @@ def upload():
         file1.UnTrash()  # Move file out of trash.
         file1.Delete()
 
+    print("Archivo viejo eliminado")
+
     gfile = drive.CreateFile({'parents': [{'id': '1iussAmgNbUWp5FgXpAg2580NBwqlmd-K'}]})
     # Read file and set it as the content of this instance.
-    gfile.SetContentFile("clean_datita.xlsx")
+    gfile.SetContentFile("/home/OjoDeIsis/clean_datita.xlsx")
     gfile.Upload() # Upload the file.
 
-    print("upload completado", time.ctime())
+    print("Archivo nuevo subido")
+
+    print("upload() terminado")
 
 def loop_boy():
     """
@@ -168,8 +182,8 @@ def loop_boy():
     while True:
         schedule.run_pending()
         time.sleep(1)
+
 func()
 upload()
-loop_boy()
-
-
+print("func() y upload() terminados")
+#loop_boy()
